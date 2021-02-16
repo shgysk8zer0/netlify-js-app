@@ -6,10 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
-## [v1.0.9]
+## [v1.0.10]
 
 ### Changed
 - More work trying to get workflows to work correctly
+- Skip a few tags getting `npm publish` to work correctly
 
 ## [v1.0.6]
 
