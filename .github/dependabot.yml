@@ -12,6 +12,7 @@ updates:
       - shgysk8zer0
     labels:
       - dependencies
+      - javascript
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
@@ -20,3 +21,8 @@ updates:
     open-pull-requests-limit: 10
     reviewers:
       - shgysk8zer0
+    assignees:
+      - shgysk8zer0
+    labels:
+      - dependencies
+      - github-actions
