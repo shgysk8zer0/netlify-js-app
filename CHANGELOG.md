@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.0.6]
+
+### Changed
+- Misc. workflow changes trying to get publishing to GitHub packages to publish
+- Use `npm ci` instead of `npm install`
+- Combine build and test scripts
+
 ## [v1.0.5]
 
 ### Changed

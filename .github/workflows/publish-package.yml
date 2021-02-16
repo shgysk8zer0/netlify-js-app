@@ -5,69 +5,45 @@ on:
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 jobs:
-  run-npm-build:
+  npm-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: npm install and build
-        run: |
-          npm install
-          npm run build --if-present
-      # - uses: actions/upload-artifact@main
-      #   with:
-      #     name: artifacts
-      #     path: /public
-
-  run-npm-test:
-    runs-on: ubuntu-latest
-    needs: run-npm-build
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [14.x]
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: npm ci and build
         with:
-          node-version: ${{ matrix.node-version }}
-      # - uses: actions/download-artifact@main
-      #   with:
-      #     name: artifacts
-      #     path: public
-      - name: npm install, and test
+          node-version: 14
         run: |
-          npm install
+          npm ci
           npm test
+          npm run build --if-present
         env:
           CI: true
 
   release-github-package:
     runs-on: ubuntu-latest
-    needs: run-npm-test
+    needs: npm-test
     steps:
-    - uses: actions/checkout@v2
-    # Setup .npmrc file to publish to npm
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14.x'
-        registry-url: 'https://npm.pkg.github.com'
-    - run: npm install
-    - run: npm publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        # Setup .npmrc file to publish to GitHub
+        with:
+          node-version: 14
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-npm-package:
     runs-on: ubuntu-latest
-    needs: run-npm-test
+    needs: npm-test
     steps:
     - uses: actions/checkout@v2
-    # Setup .npmrc file to publish to GitHub
     - uses: actions/setup-node@v2
       with:
-        node-version: '14.x'
-        registry-url: 'https://registry.npmjs.org'
-    - run: npm install
+        node-version: 14
+        registry-url: https://registry.npmjs.org
+    - run: npm ci
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
