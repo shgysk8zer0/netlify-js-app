@@ -1,5 +1,5 @@
 # netlify-js-app
-A template repository for static sites, including skeleton JS, CSS, SVGs, fonts, etc.
+This is a meta-package that exists to make maintaining multiple projects easier.
 
 ![Node CI](https://github.com/shgysk8zer0/netlify-js-app/workflows/Node%20CI/badge.svg)
 ![GitHub Super Lint](https://github.com/shgysk8zer0/netlify-js-app/workflows/Lint%20Code%20Base/badge.svg)
@@ -21,3 +21,15 @@ A template repository for static sites, including skeleton JS, CSS, SVGs, fonts,
 - [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
 - [Contributing](./.github/CONTRIBUTING.md)
 <!-- - [Security Policy](./.github/SECURITY.md) -->
+
+### Provides the following packages
+- ESLint
+- Stylelint
+- Rollup
+- PostCSS
+- SVG Sprite Generator
+- SVGO
+- Various plugins
+
+At present, this provides nothing on its own. It is designed to reduce the number
+of pull requests on other projects, thus reducing build time used on Netlify.
