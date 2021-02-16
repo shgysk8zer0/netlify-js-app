@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Includes several common NPM packages to simplify setting up projects and reduce pull requests",
+  "main": "index.js",
   "scripts": {
     "test": "eslint ."
   },
