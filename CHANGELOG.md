@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.0.2] - 2021-02-16
+
+### Changed
+- Publish packages on release created instead of tag
+- Do not upload entire root directory as artifact
+
 ## [v1.0.1]
 
 ### Added
