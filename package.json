@@ -1,7 +1,7 @@
 {
   "name": "netlify-js-app",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Includes several common NPM packages to simplify setting up projects and reduce pull requests",
   "main": "index.js",
   "scripts": {
