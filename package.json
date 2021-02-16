@@ -21,9 +21,6 @@
   "bugs": {
     "url": "https://github.com/shgysk8zer0/netlify-js-app/issues"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "homepage": "https://github.com/shgysk8zer0/netlify-js-app#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
