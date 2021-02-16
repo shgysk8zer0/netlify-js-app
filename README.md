@@ -6,6 +6,7 @@ A template repository for static sites, including skeleton JS, CSS, SVGs, fonts,
 [![GitHub license](https://img.shields.io/github/license/shgysk8zer0/netlify-js-app.svg)](https://github.com/shgysk8zer0/netlify-js-app/blob/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/shgysk8zer0/netlify-js-app.svg)
 ![GitHub release](https://img.shields.io/github/release/shgysk8zer0/netlify-js-app.svg)
+![Create and publish a packages](https://github.com/shgysk8zer0/netlify-js-app/workflows/Create%20and%20publish%20a%20packages/badge.svg)
 
 [![Donate using Liberapay](https://img.shields.io/liberapay/receives/shgysk8zer0.svg?logo=liberapay)](https://liberapay.com/shgysk8zer0/donate "Donate using Liberapay")
 ![Keybase PGP](https://img.shields.io/keybase/pgp/shgysk8zer0.svg)

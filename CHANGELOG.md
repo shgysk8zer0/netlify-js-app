@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.0.3] - 2021-02-16
+
+### Added
+- Add pubishing status badge to README
+
+### Changed
+- Revert to publishing on tag
+
 ## [v1.0.2] - 2021-02-16
 
 ### Changed
