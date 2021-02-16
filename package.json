@@ -7,7 +7,7 @@
   "scripts": {
     "test": "eslint .",
     "preversion": "npm test",
-    "version:bump": "npm version --no-git-tag-version patch"
+    "version:bump": "npm version --no-git-tag-version patch -s 'Version bump to %s'"
   },
   "repository": {
     "type": "git",
