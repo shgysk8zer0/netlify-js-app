@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [12.x, 14.x]
+        node-version: [14.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -51,7 +51,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14.x'
-        registry-url: 'https://registry.npmjs.org'
+        registry-url: 'https://npm.pkg.github.com'
     - run: npm install
     - run: npm publish
       env:
@@ -66,7 +66,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: '14.x'
-        registry-url: 'https://npm.pkg.github.com'
+        registry-url: 'https://registry.npmjs.org'
     - run: npm install
     - run: npm publish
       env:
