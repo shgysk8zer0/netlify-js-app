@@ -9,14 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.0.1]
 
 ### Added
-- `.npmrc` with publishing setup
-- `github-package.yml` workflow to publish on pushes to master
+- `publish-package.yml` workflow to publish tags to GitHub Packages and NPM
 
 ### Changed
-- Rename `github-publish.yml` -> `github-release.yml`
-
-### Removed
-- No body by default when publishing release
+- `github-release.yml` workflow has release body refer to `CHANGELOG`
 
 ## [v1.0.0] - 2021-02-15
 
