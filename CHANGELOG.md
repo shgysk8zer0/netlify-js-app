@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.0.12]
+
+### Removed
+- Comment out publishing to GitHub packages until publishing to two registries is resolved
+
 ## [v1.0.10]
 
 ### Changed
