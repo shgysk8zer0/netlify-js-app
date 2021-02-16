@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
-## [v1.0.7]
+## [v1.0.9]
 
 ### Changed
 - More work trying to get workflows to work correctly
