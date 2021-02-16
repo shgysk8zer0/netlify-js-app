@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.0.5]
+
+### Changed
+- Use Node 14.x
+
+### Fixed
+- Use correct registry for GitHub packages and NPM
+
 ## [v1.0.4]
 
 ### Removed
