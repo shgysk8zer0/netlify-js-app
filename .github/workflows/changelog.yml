@@ -21,4 +21,4 @@ jobs:
           unreleased: "true"
           pullRequests: "true"
       - name: Testing
-        run: git status
+        run: cat CHANGELOG.md
