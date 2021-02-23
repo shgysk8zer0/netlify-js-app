@@ -3,7 +3,8 @@ on:
     branches:
       - master
 jobs:
-  - name: Generate changelog
+  generate:
+    name: Generate changelog
     uses: heinrichreimer/action-github-changelog-generator@v2.2
     with:
       token: ${{ secrets.GITHUB_TOKEN }}
