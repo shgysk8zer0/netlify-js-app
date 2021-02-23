@@ -1,14 +1,23 @@
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types: [closed]
+
+  release:
+    types: [published]
+
+  issues:
+    types: [closed, edited]
 jobs:
   generate:
     name: Generate CHANGELOG
     runs-on: ubuntu-latest
     steps:
-      - name: Generate changelog
+      - name: "📥 Check-out"
+        uses: actions/checkout@v2
+      - name: "✏️ Generate release changelog"
+        id: generate-release-changelog
         uses: heinrichreimer/action-github-changelog-generator@v2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          unreleased: true
+          unreleased: "true"
+          pullRequests: "true"

@@ -13,6 +13,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: "✏️ Generate release changelog"
+        id: generate-release-changelog
+        uses: heinrichreimer/action-github-changelog-generator@v2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          onlyLastTag: "true"
+          stripHeaders: "true"
+          stripGeneratorNotice: "true"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -21,6 +29,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: See Changelog
+          body: ${{ steps.generate-release-changelog.outputs.changelog }}
           draft: false
           prerelease: false
