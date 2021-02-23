@@ -4,8 +4,11 @@ on:
       - master
 jobs:
   generate:
-    name: Generate changelog
-    uses: heinrichreimer/action-github-changelog-generator@v2.2
-    with:
-      token: ${{ secrets.GITHUB_TOKEN }}
-      unreleased: true
+    name: Generate CHANGELOG
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate changelog
+        uses: heinrichreimer/action-github-changelog-generator@v2.2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          unreleased: true
