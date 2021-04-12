@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+### Added
+- `@babel/core` and `@rollup/plugin-babel`
+
+### Changed
+- Various package updates
+
+### Removed
+- `postcss-cssnext` and `postcss-custom-properties`
+
 ## [v1.0.12]
 
 ### Removed
