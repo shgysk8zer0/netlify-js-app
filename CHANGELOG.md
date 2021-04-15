@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v1.1.0] - 2021-04-15
+
 ### Added
 - `@babel/core` and `@rollup/plugin-babel`
 
