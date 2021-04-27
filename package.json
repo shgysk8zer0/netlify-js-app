@@ -51,7 +51,7 @@
     "rollup-plugin-url-resolve": "^0.1.1",
     "stylelint": "^13.10.0",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-config-standard": "^21.0.0",
+    "stylelint-config-standard": "^22.0.0",
     "svg-sprite-generator": "0.0.7",
     "svgo": "^2.0.0"
   }
