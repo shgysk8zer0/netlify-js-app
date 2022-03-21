@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v2.0.0] - 2022-03-21
+
+### Added
+- Tests for `lint` & `build` scripts
+
+### Changed
+- Update to using node v16.14.2
+- Updated numerous dependencies
+
 ## [v1.1.0] - 2021-04-15
 
 ### Added
