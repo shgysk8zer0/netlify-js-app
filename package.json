@@ -7,13 +7,32 @@
   "private": false,
   "description": "Includes several common NPM packages to simplify setting up projects and reduce pull requests",
   "main": "index.js",
+  "config": {
+    "icons": "./_data/icons.csv",
+    "dir": {
+      "css": "css/",
+      "js": "js/",
+      "img": "img/",
+      "html": "./"
+    }
+  },
   "scripts": {
-    "test": "eslint .",
+    "test": "npm run netlify:lint && npm run netlify:build",
     "preversion": "npm test",
     "version:bump": "npm run version:bump:patch",
     "version:bump:patch": "npm version --no-git-tag-version patch",
     "version:bump:minor": "npm version --no-git-tag-version minor",
-    "version:bump:major": "npm version --no-git-tag-version patch"
+    "version:bump:major": "npm version --no-git-tag-version patch",
+    "netlify:lint": "npm run netlify:lint:js && npm run netlify:lint:css && npm run netlify:lint:html",
+    "netlify:lint:js": "if [ -f .eslintrc.json ]; then eslint .; fi",
+    "netlify:lint:css": "if [ -f .stylelintrc.json ]; then stylelint './**.css'; fi",
+    "netlify:lint:html": "if [ -f .htmlhintrc ]; then htmlhint ${npm_package_config_dir_html}; fi",
+    "fix:css": "stylelint './**.css' --fix",
+    "fix:js": "eslint. --fix",
+    "netlify:build": "npm run netlify:build:icons && npm run netlify:build:css && npm run netlify:build:js",
+    "netlify:build:css": "if [ -f 'postcss.config.js' ]; then postcss ${npm_package_config_dir_css}index.css -o ${npm_package_config_dir_css}index.min.css; fi",
+    "netlify:build:js": "if [ -f 'rollup.config.js' ]; then rollup --config; fi",
+    "netlify:build:icons": "if [ -f ${npm_package_config_icons} ]; then $(svg-sprite-generate -c ${npm_package_config_icons} -o 'img/icons.svg'); fi"
   },
   "repository": {
     "type": "git",
