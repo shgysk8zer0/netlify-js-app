@@ -58,7 +58,7 @@
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-babel": "^5.3.1",
     "htmlhint": "^1.0.0",
-    "netlify-cli": "^11.1.0",
+    "netlify-cli": "^12.0.0",
     "postcss": "^8.4.7",
     "postcss-cli": "^10.0.0",
     "postcss-discard-comments": "^5.0.3",
