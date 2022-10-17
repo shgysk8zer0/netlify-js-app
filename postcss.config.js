@@ -1,5 +1,5 @@
 /* eslint-env node */
-module.exports = {
+export default {
 	map: {inline: false},
 	plugins: [
 		require('postcss-import'),
