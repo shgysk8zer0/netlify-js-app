@@ -6,7 +6,7 @@ import pcEnv from 'postcss-preset-env';
 import pcDiscardComments from 'postcss-discard-comments';
 import pcCustomProperties from 'postcss-custom-properties';
 import pcMediaMinMax from 'postcss-media-minmax';
-import CSSNano from 'ccssnano';
+import CSSNano from 'cssnano';
 
 export default {
 	map: {inline: false},
