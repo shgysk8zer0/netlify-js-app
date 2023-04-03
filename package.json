@@ -54,7 +54,7 @@
   "dependencies": {
     "@babel/core": "^7.13.15",
     "@rollup/plugin-babel": "^6.0.0",
-    "cssnano": "^5.0.17",
+    "cssnano": "^6.0.0",
     "cssnano-preset-default": "^6.0.0",
     "eslint": "^8.0.1",
     "eslint-plugin-async-await": "0.0.0",
