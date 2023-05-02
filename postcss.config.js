@@ -7,11 +7,11 @@ import pcDiscardComments from 'postcss-discard-comments';
 import pcCustomProperties from 'postcss-custom-properties';
 import pcMediaMinMax from 'postcss-media-minmax';
 import CSSNano from 'cssnano';
-
+import postcssNesting  from 'postcss-nesting';
 export default {
 	map: {inline: false},
 	plugins: [
 		pcImport, pcURL,pcImportURL, pcEnv, pcDiscardComments, pcCustomProperties,
-		pcMediaMinMax, CSSNano,
+		pcMediaMinMax, CSSNano, postcssNesting
 	]
 };

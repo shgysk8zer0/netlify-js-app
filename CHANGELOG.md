@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v2.1.2] - 2023-05-02
+
+### Added
+- Add PostCSS plugin for CSS nesting
+- Add nesting and `:focus-within` to tests
+
 ## [v2.1.1] - 2023-01-09
 
 ### Fixed
