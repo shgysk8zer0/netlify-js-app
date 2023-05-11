@@ -6,10 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.0.0] - 2023-05-11
+
+### Removed
+- Remove deprecated `rollup-plugin-terser`
+
+### Fixed
+- Update `rollup-plugin-terser` -> `@rollup/plugin-terser`
+
 ## [v2.1.4] - 2023-05-11
 
 ### Fixed
-
 - Update `@shgysk8zer0/rollup-import` (hopefully won't cause conflicts anymore)
 
 ### Changed
