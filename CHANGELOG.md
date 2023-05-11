@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v2.1.4] - 2023-05-11
+
+### Fixed
+
+- Update `@shgysk8zer0/rollup-import` (hopefully won't cause conflicts anymore)
+
+### Changed
+- Update NPM ignore to omit unnecessary files
+
 ## [v2.1.3] - 2023-05-11
 
 ### Added
