@@ -1,11 +1,14 @@
 node_modules/
 css/
 js/
+importmap.json
 .github/
 .editorconfig
 .eslintignore
 .eslintrc.json
 .gitattributes
 .gitignore
+*.html
+*.css
 *.tgz
 *.log

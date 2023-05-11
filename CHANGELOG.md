@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+### Added
+- `@shgysk8zer0/rollup-import` to handle importmaps (later all imports)
+
 ## [v2.1.2] - 2023-05-02
 
 ### Added

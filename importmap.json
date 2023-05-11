@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "theme-cookie": "https://cdn.kernvalley.us/js/std-js/theme-cookie.js",
+    "share-button": "https://cdn.kernvalley.us/components/share-button.js",
+    "current-year": "https://cdn.kernvalley.us/components/current-year.js",
+    "not-supported": "https://cdn.kernvalley.us/components/not-supported.js",
+    "krv-ad": "https://cdn.kernvalley.us/components/krv/ad.js",
+    "weather-current": "https://cdn.kernvalley.us/components/weather/current.js",
+    "github-user": "https://cdn.kernvalley.us/components/github/user.js",
+    "install-prompt": "https://cdn.kernvalley.us/components/install/prompt.js",
+    "list-button": "https://cdn.kernvalley.us/components/app/list-button.js",
+    "app-stores": "https://cdn.kernvalley.us/components/app/stores.js",
+    "share-to-button": "https://cdn.kernvalley.us/components/share-to-button/share-to-button.js",
+    "disqus-comments": "https://cdn.kernvalley.us/components/disqus/comments.js",
+    "window-controls": "https://cdn.kernvalley.us/components/window-controls.js"
+  }
+}
