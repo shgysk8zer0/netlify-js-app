@@ -1,6 +1,6 @@
 {
   "name": "netlify-js-app",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "engines": {
     "node": ">=18.13.0"
   },
@@ -54,7 +54,7 @@
   "dependencies": {
     "@babel/core": "^7.13.15",
     "@rollup/plugin-terser": "^0.4.1",
-    "@shgysk8zer0/rollup-import": "^0.0.4",
+    "@shgysk8zer0/rollup-import": "^1.0.0",
     "cssnano": "^6.0.0",
     "cssnano-preset-default": "^6.0.0",
     "eslint": "^8.0.1",
