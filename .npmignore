@@ -1,9 +1,7 @@
 node_modules/
 css/
 js/
-importmap.json
-rollup.config.js
-postcss.config.js
+*.config.js
 .github/
 .stylelintrc.json
 .stylelintignore
@@ -13,6 +11,7 @@ postcss.config.js
 .gitattributes
 .gitignore
 .htmlhintrc
+.nvmrc
 *.html
 *.css
 *.tgz
