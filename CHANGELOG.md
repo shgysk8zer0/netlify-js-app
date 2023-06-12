@@ -6,8 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.0.5] - 2023-06-12
+
+### Changed
+- Use `@shgysk8zer0/css-utils` instead of `postcss` & `stylelint`
+- Use `@shgysk8zer0/js-utils` instead of `rollup` & `eslint`
+
 ### Fixed
 - Update GitHub Release Action with correct permissions
+- Prevent `.nvmrc` from being publishing
 
 ## [v3.0.4] - 2023-05-13
 
