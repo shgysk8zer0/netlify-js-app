@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.2.0] - 2023-06-20
+
+### Changed
+- Update `@shgysk8zer0/css-utils` with `@shgysk8zer0/postcss-import`
+
+### Removed
+- Uninstall `svg-sprite-generator`
+
 ## [v3.1.1] - 2023-06-14
 
 ### Added

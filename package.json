@@ -1,6 +1,6 @@
 {
   "name": "netlify-js-app",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "engines": {
     "node": ">=18.13.0"
   },
@@ -52,14 +52,13 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-terser": "^0.4.1",
-    "@shgysk8zer0/css-utils": "^1.0.0",
+    "@shgysk8zer0/css-utils": "^1.1.1",
     "@shgysk8zer0/importmap": "^1.0.2",
     "@shgysk8zer0/js-utils": "^1.0.0",
     "@shgysk8zer0/rollup-import": "^1.1.1",
     "@shgysk8zer0/svg-use-symbols": "^1.0.2",
     "htmlhint": "^1.1.4",
     "netlify-cli": "^15.0.0",
-    "svg-sprite-generator": "0.0.7",
     "svgo": "^3.0.0"
   }
 }
