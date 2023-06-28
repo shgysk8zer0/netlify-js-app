@@ -53,9 +53,9 @@
   "dependencies": {
     "@rollup/plugin-terser": "^0.4.1",
     "@shgysk8zer0/css-utils": "^1.1.1",
-    "@shgysk8zer0/importmap": "^1.0.2",
+    "@shgysk8zer0/importmap": "^1.0.9",
     "@shgysk8zer0/js-utils": "^1.0.0",
-    "@shgysk8zer0/rollup-import": "^1.1.1",
+    "@shgysk8zer0/rollup-import": "^1.1.2",
     "@shgysk8zer0/svg-use-symbols": "^1.0.2",
     "htmlhint": "^1.1.4",
     "netlify-cli": "^15.0.0",
