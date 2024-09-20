@@ -2,6 +2,7 @@ node_modules/
 css/
 js/
 *.config.js
+*.test.js
 .github/
 .stylelintrc.json
 .stylelintignore
