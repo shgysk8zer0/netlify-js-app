@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.3.3] - 2025-12-11
+
+### Changed
+- Countless dependency updates
+
 ## [v3.3.2] - 2024-09-21
 
 ### Changed
