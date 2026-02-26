@@ -1,6 +1,6 @@
 {
   "name": "netlify-js-app",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "engines": {
     "node": ">=18.13.0"
   },
