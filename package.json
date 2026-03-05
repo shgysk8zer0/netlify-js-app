@@ -61,7 +61,7 @@
   "homepage": "https://github.com/shgysk8zer0/netlify-js-app#readme",
   "type": "module",
   "dependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-terser": "^1.0.0",
     "@shgysk8zer0/css-utils": "^1.2.1",
     "@shgysk8zer0/importmap": "^1.8.1",
     "@shgysk8zer0/js-utils": "^1.0.3",
