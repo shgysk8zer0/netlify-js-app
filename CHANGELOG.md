@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.3.11] - 2026-03-10
+
+### Added
+- Add `@shgysk8zer0/stylelint-config`
+
+### Fixed
+- Make `@shgysk8zer0/eslint-config` a regular dependency
+
 ## [v3.3.10] - 2026-03-06
 
 ### Changed
