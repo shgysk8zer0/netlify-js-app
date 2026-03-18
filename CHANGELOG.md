@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.3.12] - 2026-03-18
+
+### Changed
+- Update dependencies
+- Update ESLint to disallow invisible characters
+
 ## [v3.3.11] - 2026-03-10
 
 ### Added
