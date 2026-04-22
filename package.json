@@ -70,7 +70,7 @@
     "@shgysk8zer0/stylelint-config": "^1.0.1",
     "@shgysk8zer0/svg-use-symbols": "^1.1.4",
     "htmlhint": "^1.9.2",
-    "netlify-cli": "^24.10.0",
+    "netlify-cli": "^25.1.1",
     "svgo": "^4.0.1"
   }
 }
