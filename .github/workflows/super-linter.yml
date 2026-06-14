@@ -6,6 +6,9 @@
 ###########################
 name: Lint Code Base
 
+permissions:
+  contents: read
+
 #
 # Documentation:
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions
@@ -34,10 +37,6 @@ on:
 ###############
 jobs:
   build:
-    strategy:
-      fail-fast: false
-      # matrix:
-      #   language:
     # Name the Job
     name: Lint Code Base
     # Set the agent to run on
@@ -88,7 +87,7 @@ jobs:
           # Valate Languages - Uncomment to Enable
           # JS/TS/JSON Disabled until ESLint in super-linter is updated
           # VALIDATE_HTML: true
-          # VALIDATE_CSS: true
+          VALIDATE_CSS: true
           # VALIDATE_JAVASCRIPT_ES: true
           # VALIDATE_JAVASCRIPT_STANDARD: true
           # VALIDATE_JSON: true
