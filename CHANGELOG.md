@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <!-- markdownlint-disable -->
 ## [Unreleased]
 
+## [v3.4.0] - 2026-06-14
+
+### Added
+- Add Security policy
+- Add npm config to harden installs
+
+### Changed
+- Update Workflows with permissions
+- Update contributiing guidelines
+- Update to node 26.3.0 & npm 11.16.0
+
 ## [v3.3.13] - 2026-04-08
 
 ### Changed
